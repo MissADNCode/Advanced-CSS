@@ -1,0 +1,19 @@
+a{
+    color: green;
+}
+a[target="_blank"]{
+    color: red;
+}
+#second-div p:nth-child(even){
+    color:red;
+}
+#second-div p:nth-child(odd){
+    color:blue;
+}
+#first-div > p::after {
+    content: " - NEW";
+    color: rgb(211, 211, 3);
+} 
+p:nth-child(8):hover{
+    font-style: italic;
+}
